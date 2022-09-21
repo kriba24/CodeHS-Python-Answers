@@ -1,0 +1,17 @@
+speed(10)
+def draw_circle(color_choice):
+    color(color_choice)
+    begin_fill()
+    circle(25)
+    end_fill()
+    penup()
+    forward(50)
+    pendown()
+penup()
+setposition(-175,0)
+pendown()
+for i in range(2):
+    draw_circle("blue")
+    draw_circle("green")
+    draw_circle("yellow")
+    draw_circle("red")
